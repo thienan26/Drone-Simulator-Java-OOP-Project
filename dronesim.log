@@ -1,0 +1,686 @@
+thg 6 24, 2026 10:23:41 SA dronesim.util.AppLogger setup
+INFO: Logger initialised – writing to dronesim.log
+thg 6 24, 2026 10:23:41 SA dronesim.config.AppConfig load
+INFO: No config file found – using defaults. A new one will be created on save.
+thg 6 24, 2026 10:23:50 SA dronesim.config.AppConfig save
+INFO: Configuration saved to config.properties
+thg 6 24, 2026 10:23:50 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronetypes/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:23:52 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronetypes/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:23:52 SA dronesim.service.DroneTypeService getAll
+INFO: Loaded 20 drone types
+thg 6 24, 2026 10:23:52 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/drones/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:23:52 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/drones/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:23:52 SA dronesim.service.DroneService getAll
+INFO: Loaded 30 drones
+thg 6 24, 2026 10:23:52 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=1&offset=0
+thg 6 24, 2026 10:23:52 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=1&offset=0
+thg 6 24, 2026 10:23:53 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=32&limit=1&offset=0
+thg 6 24, 2026 10:23:53 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=32&limit=1&offset=0
+thg 6 24, 2026 10:23:53 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=33&limit=1&offset=0
+thg 6 24, 2026 10:23:53 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=33&limit=1&offset=0
+thg 6 24, 2026 10:23:53 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=34&limit=1&offset=0
+thg 6 24, 2026 10:23:53 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=34&limit=1&offset=0
+thg 6 24, 2026 10:23:53 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=1&offset=0
+thg 6 24, 2026 10:23:54 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=1&offset=0
+thg 6 24, 2026 10:23:54 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=1&offset=0
+thg 6 24, 2026 10:23:54 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=1&offset=0
+thg 6 24, 2026 10:23:54 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=37&limit=1&offset=0
+thg 6 24, 2026 10:23:54 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=37&limit=1&offset=0
+thg 6 24, 2026 10:23:54 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=38&limit=1&offset=0
+thg 6 24, 2026 10:23:54 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=38&limit=1&offset=0
+thg 6 24, 2026 10:23:54 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=39&limit=1&offset=0
+thg 6 24, 2026 10:23:55 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=39&limit=1&offset=0
+thg 6 24, 2026 10:23:55 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=40&limit=1&offset=0
+thg 6 24, 2026 10:23:55 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=40&limit=1&offset=0
+thg 6 24, 2026 10:23:55 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=41&limit=1&offset=0
+thg 6 24, 2026 10:23:55 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=41&limit=1&offset=0
+thg 6 24, 2026 10:23:55 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=42&limit=1&offset=0
+thg 6 24, 2026 10:23:56 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=42&limit=1&offset=0
+thg 6 24, 2026 10:23:56 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=43&limit=1&offset=0
+thg 6 24, 2026 10:23:56 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=43&limit=1&offset=0
+thg 6 24, 2026 10:23:56 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=44&limit=1&offset=0
+thg 6 24, 2026 10:23:56 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=44&limit=1&offset=0
+thg 6 24, 2026 10:23:56 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=45&limit=1&offset=0
+thg 6 24, 2026 10:23:56 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=45&limit=1&offset=0
+thg 6 24, 2026 10:23:56 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=46&limit=1&offset=0
+thg 6 24, 2026 10:23:57 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=46&limit=1&offset=0
+thg 6 24, 2026 10:23:57 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=47&limit=1&offset=0
+thg 6 24, 2026 10:23:57 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=47&limit=1&offset=0
+thg 6 24, 2026 10:23:57 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=48&limit=1&offset=0
+thg 6 24, 2026 10:23:57 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=48&limit=1&offset=0
+thg 6 24, 2026 10:23:57 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=49&limit=1&offset=0
+thg 6 24, 2026 10:23:58 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=49&limit=1&offset=0
+thg 6 24, 2026 10:23:58 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=50&limit=1&offset=0
+thg 6 24, 2026 10:23:58 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=50&limit=1&offset=0
+thg 6 24, 2026 10:23:58 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=51&limit=1&offset=0
+thg 6 24, 2026 10:23:58 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=51&limit=1&offset=0
+thg 6 24, 2026 10:23:58 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=52&limit=1&offset=0
+thg 6 24, 2026 10:23:58 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=52&limit=1&offset=0
+thg 6 24, 2026 10:23:58 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=53&limit=1&offset=0
+thg 6 24, 2026 10:23:59 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=53&limit=1&offset=0
+thg 6 24, 2026 10:23:59 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=54&limit=1&offset=0
+thg 6 24, 2026 10:23:59 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=54&limit=1&offset=0
+thg 6 24, 2026 10:23:59 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=55&limit=1&offset=0
+thg 6 24, 2026 10:23:59 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=55&limit=1&offset=0
+thg 6 24, 2026 10:23:59 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=56&limit=1&offset=0
+thg 6 24, 2026 10:24:00 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=56&limit=1&offset=0
+thg 6 24, 2026 10:24:00 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=57&limit=1&offset=0
+thg 6 24, 2026 10:24:00 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=57&limit=1&offset=0
+thg 6 24, 2026 10:24:00 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=58&limit=1&offset=0
+thg 6 24, 2026 10:24:00 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=58&limit=1&offset=0
+thg 6 24, 2026 10:24:00 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=59&limit=1&offset=0
+thg 6 24, 2026 10:24:00 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=59&limit=1&offset=0
+thg 6 24, 2026 10:24:00 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=60&limit=1&offset=0
+thg 6 24, 2026 10:24:01 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=60&limit=1&offset=0
+thg 6 24, 2026 10:24:01 SA dronesim.gui.DashboardPanel lambda$loadMetricsAsync$0
+INFO: Metrics loaded for all drones
+thg 6 24, 2026 10:26:33 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=20&offset=0
+thg 6 24, 2026 10:26:34 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=20&offset=0
+thg 6 24, 2026 10:26:34 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 1 for drone 31 (20 records)
+thg 6 24, 2026 10:35:20 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=33&limit=20&offset=0
+thg 6 24, 2026 10:35:22 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=33&limit=20&offset=0
+thg 6 24, 2026 10:35:22 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 1 for drone 33 (20 records)
+thg 6 24, 2026 10:35:24 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=0
+thg 6 24, 2026 10:35:24 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=0
+thg 6 24, 2026 10:35:24 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 1 for drone 36 (20 records)
+thg 6 24, 2026 11:18:31 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=0
+thg 6 24, 2026 11:18:32 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=0
+thg 6 24, 2026 11:18:32 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 1 for drone 36 (20 records)
+thg 6 24, 2026 11:18:33 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=20
+thg 6 24, 2026 11:18:33 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=20
+thg 6 24, 2026 11:18:33 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 2 for drone 36 (20 records)
+thg 6 24, 2026 11:18:34 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=40
+thg 6 24, 2026 11:18:34 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=40
+thg 6 24, 2026 11:18:34 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 3 for drone 36 (20 records)
+thg 6 24, 2026 11:18:34 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=60
+thg 6 24, 2026 11:18:35 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=60
+thg 6 24, 2026 11:18:35 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 4 for drone 36 (20 records)
+thg 6 24, 2026 11:18:35 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=80
+thg 6 24, 2026 11:18:35 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=80
+thg 6 24, 2026 11:18:35 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 5 for drone 36 (20 records)
+thg 6 24, 2026 11:18:35 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=100
+thg 6 24, 2026 11:18:36 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=100
+thg 6 24, 2026 11:18:36 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 6 for drone 36 (20 records)
+thg 6 24, 2026 11:18:36 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=120
+thg 6 24, 2026 11:18:36 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=120
+thg 6 24, 2026 11:18:36 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 7 for drone 36 (20 records)
+thg 6 24, 2026 11:18:37 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=140
+thg 6 24, 2026 11:18:37 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=140
+thg 6 24, 2026 11:18:37 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 8 for drone 36 (20 records)
+thg 6 24, 2026 11:18:37 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=160
+thg 6 24, 2026 11:18:37 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=160
+thg 6 24, 2026 11:18:37 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 9 for drone 36 (20 records)
+thg 6 24, 2026 11:18:37 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=180
+thg 6 24, 2026 11:18:38 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=180
+thg 6 24, 2026 11:18:38 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 10 for drone 36 (20 records)
+thg 6 24, 2026 11:18:38 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=200
+thg 6 24, 2026 11:18:38 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=200
+thg 6 24, 2026 11:18:38 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 11 for drone 36 (20 records)
+thg 6 24, 2026 11:18:39 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=220
+thg 6 24, 2026 11:18:39 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=220
+thg 6 24, 2026 11:18:39 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 12 for drone 36 (20 records)
+thg 6 24, 2026 11:18:42 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=240
+thg 6 24, 2026 11:18:42 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=240
+thg 6 24, 2026 11:18:42 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 13 for drone 36 (20 records)
+thg 6 24, 2026 11:18:46 SA dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=260
+thg 6 24, 2026 11:18:47 SA dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=260
+thg 6 24, 2026 11:18:47 SA dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 14 for drone 36 (20 records)
+thg 6 24, 2026 12:11:57 CH dronesim.controller.DashboardController stopAutoRefresh
+INFO: Auto-refresh stopped
+thg 6 24, 2026 12:11:57 CH dronesim.gui.MainFrame$1 windowClosing
+INFO: Application closing – auto-refresh stopped
+thg 6 24, 2026 10:49:31 CH dronesim.util.AppLogger setup
+INFO: Logger initialised – writing to dronesim.log
+thg 6 24, 2026 10:49:31 CH dronesim.config.AppConfig load
+INFO: Configuration loaded from config.properties
+thg 6 24, 2026 10:49:32 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronetypes/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:34 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronetypes/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:34 CH dronesim.service.DroneTypeService getAll
+INFO: Loaded 20 drone types
+thg 6 24, 2026 10:49:34 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/drones/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:34 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/drones/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:34 CH dronesim.service.DroneService getAll
+INFO: Loaded 30 drones
+thg 6 24, 2026 10:49:34 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=20&offset=0
+thg 6 24, 2026 10:49:35 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=20&offset=0
+thg 6 24, 2026 10:49:35 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=32&limit=20&offset=0
+thg 6 24, 2026 10:49:35 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=32&limit=20&offset=0
+thg 6 24, 2026 10:49:35 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=33&limit=20&offset=0
+thg 6 24, 2026 10:49:35 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=33&limit=20&offset=0
+thg 6 24, 2026 10:49:35 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=34&limit=20&offset=0
+thg 6 24, 2026 10:49:36 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=34&limit=20&offset=0
+thg 6 24, 2026 10:49:36 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=0
+thg 6 24, 2026 10:49:36 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=0
+thg 6 24, 2026 10:49:36 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=0
+thg 6 24, 2026 10:49:36 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=0
+thg 6 24, 2026 10:49:36 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=37&limit=20&offset=0
+thg 6 24, 2026 10:49:37 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=37&limit=20&offset=0
+thg 6 24, 2026 10:49:37 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=38&limit=20&offset=0
+thg 6 24, 2026 10:49:37 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=38&limit=20&offset=0
+thg 6 24, 2026 10:49:37 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=39&limit=20&offset=0
+thg 6 24, 2026 10:49:37 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=39&limit=20&offset=0
+thg 6 24, 2026 10:49:38 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=40&limit=20&offset=0
+thg 6 24, 2026 10:49:38 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=40&limit=20&offset=0
+thg 6 24, 2026 10:49:38 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=41&limit=20&offset=0
+thg 6 24, 2026 10:49:38 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=41&limit=20&offset=0
+thg 6 24, 2026 10:49:38 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=42&limit=20&offset=0
+thg 6 24, 2026 10:49:39 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=42&limit=20&offset=0
+thg 6 24, 2026 10:49:39 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=43&limit=20&offset=0
+thg 6 24, 2026 10:49:39 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=43&limit=20&offset=0
+thg 6 24, 2026 10:49:39 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=44&limit=20&offset=0
+thg 6 24, 2026 10:49:39 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=44&limit=20&offset=0
+thg 6 24, 2026 10:49:39 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=45&limit=20&offset=0
+thg 6 24, 2026 10:49:40 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=45&limit=20&offset=0
+thg 6 24, 2026 10:49:40 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=46&limit=20&offset=0
+thg 6 24, 2026 10:49:40 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=46&limit=20&offset=0
+thg 6 24, 2026 10:49:40 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=47&limit=20&offset=0
+thg 6 24, 2026 10:49:40 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=47&limit=20&offset=0
+thg 6 24, 2026 10:49:40 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=48&limit=20&offset=0
+thg 6 24, 2026 10:49:40 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronetypes/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:41 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=48&limit=20&offset=0
+thg 6 24, 2026 10:49:41 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=49&limit=20&offset=0
+thg 6 24, 2026 10:49:41 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=49&limit=20&offset=0
+thg 6 24, 2026 10:49:41 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=50&limit=20&offset=0
+thg 6 24, 2026 10:49:41 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=50&limit=20&offset=0
+thg 6 24, 2026 10:49:41 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=51&limit=20&offset=0
+thg 6 24, 2026 10:49:41 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronetypes/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:41 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronetypes/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:41 CH dronesim.service.DroneTypeService getAll
+INFO: Loaded 20 drone types
+thg 6 24, 2026 10:49:41 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/drones/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=51&limit=20&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=52&limit=20&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/drones/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.service.DroneService getAll
+INFO: Loaded 30 drones
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=20&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=52&limit=20&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=53&limit=20&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=20&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=32&limit=20&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=53&limit=20&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronetypes/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.service.DroneTypeService getAll
+INFO: Loaded 20 drone types
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/drones/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=54&limit=20&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=32&limit=20&offset=0
+thg 6 24, 2026 10:49:42 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=33&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/drones/?format=json&limit=100&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.service.DroneService getAll
+INFO: Loaded 30 drones
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=54&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=55&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=33&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=34&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=32&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=55&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=56&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=34&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=32&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=33&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=56&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=57&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=0
+thg 6 24, 2026 10:49:43 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=33&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=34&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=57&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=58&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=37&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=34&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=58&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=59&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=37&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=38&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=59&limit=20&offset=0
+thg 6 24, 2026 10:49:44 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=60&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=38&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=39&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=36&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=37&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=60&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.gui.DashboardPanel lambda$loadMetricsAsync$0
+INFO: Metrics loaded for all drones
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=39&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=40&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=37&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=38&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=40&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=41&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=38&limit=20&offset=0
+thg 6 24, 2026 10:49:45 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=39&limit=20&offset=0
+thg 6 24, 2026 10:49:46 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=41&limit=20&offset=0
+thg 6 24, 2026 10:49:46 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=42&limit=20&offset=0
+thg 6 24, 2026 10:49:46 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=39&limit=20&offset=0
+thg 6 24, 2026 10:49:46 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=40&limit=20&offset=0
+thg 6 24, 2026 10:49:46 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=42&limit=20&offset=0
+thg 6 24, 2026 10:49:46 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=43&limit=20&offset=0
+thg 6 24, 2026 10:49:46 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=40&limit=20&offset=0
+thg 6 24, 2026 10:49:46 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=41&limit=20&offset=0
+thg 6 24, 2026 10:49:46 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=43&limit=20&offset=0
+thg 6 24, 2026 10:49:46 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=44&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=41&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=42&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=44&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=45&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=42&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=43&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=45&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=46&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=43&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=44&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=46&limit=20&offset=0
+thg 6 24, 2026 10:49:47 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=47&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=44&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=45&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=47&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=48&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=45&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=46&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=48&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=49&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=46&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=47&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=49&limit=20&offset=0
+thg 6 24, 2026 10:49:48 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=50&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=47&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=48&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=50&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=51&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=48&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=49&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=51&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=52&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=49&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=50&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=52&limit=20&offset=0
+thg 6 24, 2026 10:49:49 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=53&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=50&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=51&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=53&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=54&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=51&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=52&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=54&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=55&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=52&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=53&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=55&limit=20&offset=0
+thg 6 24, 2026 10:49:50 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=56&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=53&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=54&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=56&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=57&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=54&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=55&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=57&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=58&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=55&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=56&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=58&limit=20&offset=0
+thg 6 24, 2026 10:49:51 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=59&limit=20&offset=0
+thg 6 24, 2026 10:49:52 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=56&limit=20&offset=0
+thg 6 24, 2026 10:49:52 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=57&limit=20&offset=0
+thg 6 24, 2026 10:49:52 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=59&limit=20&offset=0
+thg 6 24, 2026 10:49:52 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=60&limit=20&offset=0
+thg 6 24, 2026 10:49:52 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=57&limit=20&offset=0
+thg 6 24, 2026 10:49:52 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=58&limit=20&offset=0
+thg 6 24, 2026 10:49:52 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=60&limit=20&offset=0
+thg 6 24, 2026 10:49:52 CH dronesim.gui.DashboardPanel lambda$loadMetricsAsync$0
+INFO: Metrics loaded for all drones
+thg 6 24, 2026 10:49:52 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=58&limit=20&offset=0
+thg 6 24, 2026 10:49:52 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=59&limit=20&offset=0
+thg 6 24, 2026 10:49:53 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=59&limit=20&offset=0
+thg 6 24, 2026 10:49:53 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=60&limit=20&offset=0
+thg 6 24, 2026 10:49:53 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=60&limit=20&offset=0
+thg 6 24, 2026 10:49:53 CH dronesim.gui.DashboardPanel lambda$loadMetricsAsync$0
+INFO: Metrics loaded for all drones
+thg 6 24, 2026 10:50:03 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=20&offset=0
+thg 6 24, 2026 10:50:04 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=31&limit=20&offset=0
+thg 6 24, 2026 10:50:04 CH dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 1 for drone 31 (20 records)
+thg 6 24, 2026 10:50:08 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=0
+thg 6 24, 2026 10:50:08 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=0
+thg 6 24, 2026 10:50:08 CH dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 1 for drone 35 (20 records)
+thg 6 24, 2026 10:50:30 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=20
+thg 6 24, 2026 10:50:31 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=20
+thg 6 24, 2026 10:50:31 CH dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 2 for drone 35 (20 records)
+thg 6 24, 2026 10:50:32 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=40
+thg 6 24, 2026 10:50:32 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=40
+thg 6 24, 2026 10:50:32 CH dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 3 for drone 35 (20 records)
+thg 6 24, 2026 10:50:33 CH dronesim.api.DroneSimApiClient get
+INFO: GET https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=60
+thg 6 24, 2026 10:50:33 CH dronesim.api.DroneSimApiClient get
+INFO: HTTP 200 from https://dronesim.facets-labs.com/api/dronedynamics/?format=json&drone=35&limit=20&offset=60
+thg 6 24, 2026 10:50:33 CH dronesim.service.DroneDynamicsService getPageForDrone
+INFO: Loaded dynamics page 4 for drone 35 (20 records)
+thg 6 24, 2026 10:50:34 CH dronesim.controller.DashboardController stopAutoRefresh
+INFO: Auto-refresh stopped
+thg 6 24, 2026 10:50:34 CH dronesim.gui.MainFrame$1 windowClosing
+INFO: Application closing
